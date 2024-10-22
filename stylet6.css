@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    border: 2px solid;
+    width: 200px;
+    height: 200px;
+    /* background-color: teal; */ 
+    box-shadow: 5px 10px red;
+}
+@media screen and (width < 600px) {
+    .container{
+        box-shadow: none;
+    }
+}

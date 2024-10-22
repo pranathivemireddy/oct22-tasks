@@ -1,0 +1,8 @@
+button{
+    background-color:teal;
+}
+@media screen and (orientation:portrait) {
+    button{
+    background-color: orange;
+}
+}
